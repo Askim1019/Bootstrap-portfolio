@@ -1,4 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+}
+body {
+    background-color: yellow;
+}
 
+.container {
+    background-color: white;
+}
 
+.navbar {
+    background-color: white;
+}
 
+h1 {
+    background-color: #4aaaa5;
+    float: left;
+    margin: 0 auto;
+    color: white;
+    padding: 15px;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    font-weight: bolder;
+}
 
+.navbar-nav {
+    float: right;
+}
+
+.navbar-nav li {
+    list-style-type: none;
+    margin-top: 22px;
+}
+
+.navbar-nav a {
+    padding: 40px;
+    color: #aaa;
+}
