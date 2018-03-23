@@ -1,41 +1,111 @@
+/*
 * {
     margin: 0;
     padding: 0;
     font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
 }
+*/
+
 body {
-    background-color: yellow;
+    background-image: url("images/background1.png");
 }
 
-.container {
-    background-color: white;
+/* NAVIGATION BAR */
+
+
+
+.nav-div {
+    background-color: #f8f9fa;
 }
 
 .navbar {
-    background-color: white;
+    padding: 0 0;
 }
 
-h1 {
+.navbar-brand {
     background-color: #4aaaa5;
-    float: left;
-    margin: 0 auto;
-    color: white;
     padding: 15px;
     font-family: Georgia, Times, 'Times New Roman', serif;
     font-size: 30px;
     font-weight: bolder;
 }
 
-.navbar-nav {
-    float: right;
+#header {
+    color: white;
 }
 
-.navbar-nav li {
-    list-style-type: none;
-    margin-top: 22px;
+/* MAIN CONTENT FOR ABOUT PAGE */
+
+.main {
+    width: 960px;
+    margin: 50px auto;
+    background-color: white;
 }
 
-.navbar-nav a {
-    padding: 40px;
-    color: #aaa;
+.main h2 {
+    display: block;
+    padding: 12px;
+    color: #4aaaa5;
+    font-weight: bolder;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}
+
+.main hr {
+    width: 100%;
+    border-color: #ccc;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.profile-pic {
+    width: 200px;
+    height: 200px;
+    padding: 10px 15px;
+    float: left;
+}
+
+/* PORTFOLIO PAGE STYLING */
+.portcol {
+    position: relative;
+    padding: 5%;
+    float: left;
+}
+
+.portbox {
+    text-align: center;
+}
+
+.portbox h2 {
+    width: 225px;
+    background-color: #4aaaa5;
+    padding: 15px 0;
+    position: relative;
+    margin: 0 auto;
+    bottom: 85px;
+    z-index: 1;
+    color: white;
+}
+
+
+
+
+/* getting footer to work */
+.container-fluid {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+#sticky {
+    width: 100%;
+    background: #696969;
+    text-align: center;
+    height: 50px;
+    padding-top: 15px;
+    position: fixed;
+    bottom: 0;
+    z-index: 2;
+}
+
+#sticky p {
+    color: white;
 }

@@ -6,33 +6,82 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-<!-- jQuery library -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<!-- Latest compiled JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
-<title>Alex Kim Portfolio</title>
-
-<link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Alex Kim Portfolio</title>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Navigation Bar -->
-    <nav class="navbar navbar-light fixed-top">
-        <div class="container w-75 p-3">
-            
-            <h1>Alex Kim</h1>
-
-
-             <ul class="navbar-nav">
-                <li><a href="#">About</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Contact</a></li>
-             </ul>
-
+    <div class="nav-div">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" id="header" href="#">Alex Kim</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item pr-4">
+                    <a class="nav-link" href="index.html">About<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item pr-4">
+                    <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item pr-4">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+                </div>
+            </nav>
         </div>
-    </nav>
+    </div>
 
+    <div class="container main" id="aboutmain">
 
+        <h2>About Me</h2>
+
+        <hr>
+
+        <img class="profile-pic" src="images/profile-image.jpg" alt="alex kim profile image">
+        
+        <p>I was born and raised Illinois. I grew up in a town called Naperville, Illinois.
+        I remember back then, all I would do is play outside. Play some capture the flag, kick the can,
+        ghost in the graveyard, basketball, football, or pretty much anything else you could think of outside the house.
+        I remember our whole family would share one single desktop computer. Being the youngest, I would have
+        to wait my turn to use it. I usually just ended up playing outside instead of using the computer.
+        Fast-forward to about two decades and I'm in my home gaming and developing on two monitors, two desktops, and one laptop
+        at home.
+        </p>
+
+        <br>
+
+        <p>Things have come a long way and I always like reminiscing where life was when I was a kid. I remember
+        wanting to be professional NBA basketball player, a professional poker player, or a drummer for a really cool band. 
+        I became none of those things, although I love doing all three on my own time.
+        I graduated from UIC with a Biological Sciences degree and became a Microbiologist. I was content with my job, 
+        co-workers, and commute. That is until I shadowed my friend at his tech company and coded some
+        stuff on codecademy and FreeCodeCamp. The day I learned about the world of coding is when my life became unnecessarily harder than it had to be. 
+        I was no longer content with being a Microbiologist. I knew that I wanted to dive into the world of software development.
+        </p>
+
+        <br>
+
+        <p> From March 2017 to March 2018 I self-taught myself as much as I could in my spare time. I tried to learn HTML, CSS, Ruby,
+        Ruby on Rails, JavaScript, SQL, Git, Algorithms, Big O Notation, Bootstrap, Computer Science Fundamentals, and you get the point.
+        I realized I didn't have much time and became scattered-brained at all the new frameworks, languages, books, and resources I was diving into.
+        That's when I realized I wanted to get a job out of coding as soon as possible. I joined Northwestern Coding Bootcamp to fast track
+        me and get my foot in the door while learning a modern stack. It's not about if, it's about when.
+        </p>
+
+        <br>
+    </div>
+
+    <div class="container-fluid">
+        <footer id="sticky">
+            <p>&copy Alex Kim 2018</p>
+        </footer>
+    </div>
 </body>
 </html>
