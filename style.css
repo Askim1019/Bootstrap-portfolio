@@ -50,7 +50,7 @@ body {
     font-family: Georgia, Times, 'Times New Roman', serif;
 }
 
-.main hr {
+hr {
     width: 100%;
     border-color: #ccc;
     border-width: 1px;
@@ -86,13 +86,58 @@ body {
     color: white;
 }
 
+/* CONTACT FORM PAGE */
+
+#formdiv {
+    margin: 25px 10px;
+    background: white;
+    padding: 10px 15px;
+}
 
 
+h3 {
+    color: #4aaaa5;
+    font-weight: bolder;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}
+
+#connectdiv {
+    max-height: 200px;
+    margin: 25px 10px;
+    background: white;
+    padding: 10px 15px;
+}
+
+.social ul {
+    margin-top: 35px;
+}
+
+.social a {
+    text-decoration: none;
+}
+
+
+.social img {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+
+} 
 
 /* getting footer to work */
 .container-fluid {
     padding-left: 0px;
     padding-right: 0px;
+}
+
+textarea {
+    height: 200px;
+    resize: none;
+}
+
+.submitBtn {
+    background-color: #4aaaa5;
+    margin-top: 100px;
 }
 
 #sticky {
