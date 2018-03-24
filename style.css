@@ -18,6 +18,9 @@ body {
     background-color: #f8f9fa;
 }
 
+.container {
+    width: 960px;
+}
 .navbar {
     padding: 0 0;
 }
