@@ -88,6 +88,8 @@ hr {
     bottom: 85px;
     z-index: 1;
     color: white;
+    opacity: 0.9;
+    font-size: 25px;
 }
 
 /* CONTACT FORM PAGE */
