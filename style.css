@@ -79,6 +79,12 @@ hr {
     text-align: center;
 }
 
+.portbox img {
+    width: 200px;
+    height: 200px;
+}
+
+
 .portbox h2 {
     width: 225px;
     background-color: #4aaaa5;
